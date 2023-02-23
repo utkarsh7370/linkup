@@ -15,7 +15,7 @@ import { Parallax, Pagination, Navigation } from "swiper";
 export default function Testimonial() {
   return (
     <>
-    <h1 className="head">Testimonial</h1>
+      <h1 className="head">Testimonial</h1>
       <Swiper
         style={{
           "--swiper-navigation-color": "#fff",
@@ -36,15 +36,15 @@ export default function Testimonial() {
           style={{
             // "background-image":
             //   "url(https://swiperjs.com/demos/images/nature-1.jpg)",
-            "background-color":"black"
+            "background-color": "black",
           }}
           data-swiper-parallax="-23%"
         ></div>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-          Liza
+            Liza
           </div>
-        
+
           <div className="text" data-swiper-parallax="-100">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -61,7 +61,7 @@ export default function Testimonial() {
           <div className="title" data-swiper-parallax="-300">
             Alfred
           </div>
-          
+
           <div className="text" data-swiper-parallax="-100">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -76,11 +76,10 @@ export default function Testimonial() {
         </SwiperSlide>
         <SwiperSlide>
           <div className="title" data-swiper-parallax="-300">
-          Joe
+            Joe
           </div>
-       
-      
-          <div className="text"data-swiper-parallax="-100" >
+
+          <div className="text" data-swiper-parallax="-100">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla

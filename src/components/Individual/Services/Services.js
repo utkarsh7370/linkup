@@ -1,11 +1,7 @@
-import React from 'react'
-import './Services.css'
+import React from "react";
+import "./Services.css";
 function Services() {
-  return (
-    <div className="wrapper">
-    
-    </div>
-  );
+  return <div className="wrapper"></div>;
 }
 function Card(props) {
   return (
@@ -20,4 +16,4 @@ function Card(props) {
   );
 }
 
-export default Services
+export default Services;

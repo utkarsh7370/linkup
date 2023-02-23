@@ -1,4 +1,4 @@
-.card1 {
+.cards1 {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -12,12 +12,12 @@
   cursor: "pointer"; */
 }
 
-.card__image1 {
+.cards__image1 {
   height: 500px;
   width: 100%;
 }
 
-.cardHovered {
+.cardsHovered {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

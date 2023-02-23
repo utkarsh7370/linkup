@@ -9,12 +9,12 @@ function Row(props) {
   });
 
   return (
-    <div className="row">
-      <h2 className="row__heading">Featured</h2>
-      <p className="row__description">
+    <div className="rows">
+      <h2 className="rows__heading">Featured</h2>
+      <p className="rows__description">
         Hire top influencers across all platforms
       </p>
-      <div className="row__list">{cards}</div>
+      <div className="rows__list">{cards}</div>
     </div>
   );
 }

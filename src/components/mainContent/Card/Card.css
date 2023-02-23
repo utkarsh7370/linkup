@@ -1,15 +1,15 @@
-/* .card__row {
+/* .cards__row {
   margin: 500px;
 } */
 
-.card__layout {
+.cards__layout {
   height: 20rem;
   width: 20rem;
   margin: 20px;
   align-items: flex;
 }
 
-.card {
+.cards {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@
   width: 20rem;
 }
 
-.card__name {
+.cards__name {
   color: #fff;
   font-size: 12px;
   font-weight: 800;
@@ -38,7 +38,7 @@
   width: 30%;
 }
 
-.card__location {
+.cards__location {
   color: #fff;
   font-size: 10px;
   font-weight: 500;
@@ -49,12 +49,12 @@
   width: 100%;
 }
 
-.card__image {
+.cards__image {
   height: 100%;
   width: 100%;
 }
 
-.card__details {
+.cards__details {
   margin-left: 20px;
 }
 
@@ -63,19 +63,19 @@
   justify-content: space-between;
 }
 
-.card__platform {
+.cards__platform {
   color: gray;
   font-size: 12px;
   margin-bottom: 6px;
 }
 
-.card__price {
+.cards__price {
   font-size: 12px;
   font-weight: bold;
   margin-bottom: 6px;
 }
 
-.card__description {
+.cards__description {
   font-weight: 400;
   font-size: 14px;
 }
