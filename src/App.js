@@ -16,7 +16,7 @@ export default function App() {
     //     <Route path="/" element={<MainContent />}></Route>
     //     <Route path="/individual" element={<Individual />}></Route>
     //     {/* <Route path="/Login"element={<Login />} />
-    //     <Route path="/Register" element={<Register />} /> */}
+    //     <Routes path="/Register" element={<Register />} /> */}
 
     //   </Routes>
     // </BrowserRouter>
