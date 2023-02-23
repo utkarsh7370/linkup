@@ -1,7 +1,3 @@
-/* .cards__row {
-  margin: 500px;
-} */
-
 .cards__layout {
   height: 20rem;
   width: 20rem;
@@ -21,7 +17,7 @@
   width: 20rem;
 }
 
-.image__container {
+.cardsimage__container {
   position: relative;
   height: 18.75rem;
   width: 20rem;
@@ -58,7 +54,7 @@
   margin-left: 20px;
 }
 
-.flex {
+.cards__flex {
   display: flex;
   justify-content: space-between;
 }

@@ -14,11 +14,11 @@ function Card1(props) {
   };
   return (
     <div
-      className={hovered ? "cardHovered" : "cards1"}
+      className={hovered ? "cards1__Hovered" : "cards1"}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <img className="cards__image1" src={img1} alt="cards-image" />
+      <img className="cards1__image" src={img1} alt="cards-image" />
     </div>
   );
 }

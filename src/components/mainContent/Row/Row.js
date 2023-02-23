@@ -9,10 +9,6 @@ function Row(props) {
     return <Card key={item.id} {...item} />;
   });
 
-  const handleClick = () => {
-    console.log("Button clicked!");
-  };
-
   return (
     <div className="rows">
       <h2 className="rows__heading">Featured</h2>

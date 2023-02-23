@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import "./Card2.css";
 import img1 from "../images/1.jpg";
 
-function Card1(props) {
+function Card2(props) {
   const [hovered, setHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -14,13 +14,13 @@ function Card1(props) {
   };
   return (
     <div
-      className={hovered ? "cardHovered" : "cards2"}
+      className={hovered ? "cards2__Hovered" : "cards2"}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <img className="cards__image2" src={img1} alt="cards-image" />
+      <img className="cards2__image" src={img1} alt="cards-image" />
     </div>
   );
 }
 
-export default Card1;
+export default Card2;
