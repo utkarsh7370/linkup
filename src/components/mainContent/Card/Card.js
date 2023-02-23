@@ -1,10 +1,16 @@
 import React from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import "./Card.css";
 import img1 from "../images/1.jpg";
 
 function Card(props) {
+  const handleClick = () => {
+    window.location = "/individual";
+    console.log("Button clicked!");
+  };
+
   return (
-    <div className="cards__layout">
+    <div className="cards__layout" onClick={handleClick}>
       <div className="cards">
         <div className="image__container">
           <div className="cards__name">{props.name}</div>

@@ -5,7 +5,7 @@ import "../Services/Services";
 import MyButton from "../MyButton/MyButton";
 import { motion, useScroll } from "framer-motion";
 
-function influencer() {
+function Influencer() {
   const handleClick = () => {
     console.log("Button clicked!");
   };
@@ -136,4 +136,4 @@ function influencer() {
   );
 }
 
-export default influencer;
+export default Influencer;

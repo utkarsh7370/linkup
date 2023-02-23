@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Row.css";
 import data from "../Card/data";
 import Card from "../Card/Card";
@@ -7,6 +8,10 @@ function Row(props) {
   const cards = data.map((item) => {
     return <Card key={item.id} {...item} />;
   });
+
+  const handleClick = () => {
+    console.log("Button clicked!");
+  };
 
   return (
     <div className="rows">

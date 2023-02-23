@@ -1,22 +1,19 @@
-import "./App.css";
-import Influencer from "./components/Individual/Influencer/Influencer";
-import Services from "./components/Individual/Services/Services";
-import Testimonial from "./components/Individual/Testimonial/Testimonial";
-import Socials from "./components/Individual/Socials/Socials";
 import React from "react";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import "./App.css";
 import Card from "./components/mainContent/Card/Card";
 import data from "./components/mainContent/Card/data";
 import "./components/mainContent/Card/Card.css";
 import MainContent from "./components/mainContent/MainContent";
+import Individual from "./components/Individual/Individual";
 
 export default function App() {
   return (
-    <div>
-      <Influencer />
-      <Services />
-      <Testimonial />
-      <Socials />
-      <MainContent />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainContent />}></Route>
+        <Route path="/individual" element={<Individual />}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
