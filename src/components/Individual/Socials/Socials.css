@@ -1,13 +1,13 @@
-.social-links {
+.socials__social-links {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
 }
-.icon {
+.socials__icon {
   color: palevioletred;
 }
-.social-button {
+.socials__social-button {
   background-color: palevioletred; /* pink color code */
   color: white; /* text color */
   display: inline-block;

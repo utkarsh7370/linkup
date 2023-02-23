@@ -12,7 +12,7 @@ function Influencer() {
   return (
     <div>
       <>
-        <div className="header">
+        <div className="influencer__header">
           <h1>Influencer</h1>
           <p>Welcome to my profile !!!</p>
         </div>
@@ -20,12 +20,12 @@ function Influencer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          className="image-container"
+          className="influencer__image-container"
         >
-          <div className="row">
-            <div className="column">
+          <div className="influencer__row">
+            <div className="influencer__column">
               <img
-                className="i"
+                className="influencer__i"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNNyqmPsZSWT7gSlMT2S3MAIKeIv6BNi8RVfUyJrt9Hz-j7cBA5w"
                 style={{ width: "100%" }}
               />
@@ -40,7 +40,7 @@ function Influencer() {
               />
             </div>
 
-            <div className="column">
+            <div className="influencer__column">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNNyqmPsZSWT7gSlMT2S3MAIKeIv6BNi8RVfUyJrt9Hz-j7cBA5w"
                 //src="https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmVhdXRpZnVsJTIwaW5mbHVlbmNlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
@@ -59,7 +59,7 @@ function Influencer() {
               />
             </div>
 
-            <div className="column">
+            <div className="influencer__column">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNNyqmPsZSWT7gSlMT2S3MAIKeIv6BNi8RVfUyJrt9Hz-j7cBA5w"
                 // src="https://images.unsplash.com/photo-1543935637-469e1ed2f8e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmVhdXRpZnVsJTIwd29tZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
@@ -79,10 +79,10 @@ function Influencer() {
           </div>
         </motion.div>
       </>
-      <div id="about">
-        <h1 className="title-size"> ABOUT ME </h1>
+      <div id="influencer__about">
+        <h1 className="influencer__title-size"> ABOUT ME </h1>
         <br />
-        <p className="text-size">
+        <p className="influencer__text-size">
           {" "}
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -93,13 +93,13 @@ function Influencer() {
           culpa qui officia deserunt mollit anim id est laborum."
         </p>
       </div>
-      <div className="header">
+      <div className="influencer__header">
         <h1>Services</h1>
       </div>
-      <div className="fcont">
+      <div className="influencer__fcont">
         <>
-          <article className="card">
-            <h2 class="head">Package 1</h2>
+          <article className="influencer__card">
+            <h2 class="influencer__head">Package 1</h2>
             <h3>$250</h3>
             <p>
               This package includes 1 instagram reel video showcasing your
@@ -109,8 +109,8 @@ function Influencer() {
             </p>
             <MyButton label="Add to Cart" onClick={handleClick} />
           </article>
-          <article className="card">
-            <h2 class="head">Package 1</h2>
+          <article className="influencer__card">
+            <h2 class="influencer__head">Package 1</h2>
             <h3>$500</h3>
             <p>
               This package includes 1 post in my feed specifically created to
@@ -119,8 +119,8 @@ function Influencer() {
             </p>
             <MyButton label="Add to Cart" onClick={handleClick} />
           </article>
-          <article className="card">
-            <h2 class="head">Package 3</h2>
+          <article className="influencer__card">
+            <h2 class="influencer__head">Package 3</h2>
             <h3>$100</h3>
             <p>
               This package includes 1 tik tok video showcasing your products. I
